@@ -16,7 +16,7 @@ function App() {
       </div>
       {/* <SunCursor /> */}
       <div>
-      <FlowerComponents />
+      {/* <FlowerComponents /> */}
       <img src={Stalk} alt="" className='' style={{ zIndex: 1 }} />
       </div>
       <Line/>
