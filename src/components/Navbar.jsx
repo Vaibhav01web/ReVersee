@@ -8,9 +8,9 @@ const Navbar = () => {
        sm:text-[36px] text-[36px] py-1'>ReVerse <span className='text-yellow-300'>9.0</span></p>
       <ul className='text-white mainfont m-1 flex items-center gap-5  text-[16px] sm:text-[20px]'>
         <a href="#participate"><li className='navButtons'>Participate</li></a>
-        <li className='navButtons'>Perks</li>
-        <li className='navButtons'>Sponsor</li>
-        <li className='navButtons'>Team</li>
+        <a href="#perks"><li className='navButtons'>Perks</li></a>
+        <a href="#sponsor"><li className='navButtons'>Sponsor</li></a>
+        <a href="#sponsor"><li className='navButtons'>Team</li></a>
       </ul>
       <div  className="bg-white sm:block hidden flex items-center justify-center m-3">
       <button className="px-6 float mainfont py-2 font-medium bg-yellow-300 text-black w-fit transition-all shadow-[3px_3px_0px_black] hover:shadow-none hover:translate-x-[3px] hover:translate-y-[3px]">

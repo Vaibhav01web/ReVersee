@@ -18,7 +18,7 @@ const Participate = () => {
         <div className='bg-black w-screen overflow-x-hidden' id='participate'>
             <div className='flex justify-center flex-col items-center'>
                 <div>
-                    <p className='mainfont text-white sm:text-[46px] text-[36px] my-3'>Participate Now</p>
+                    <p className='mainfont text-white sm:text-[46px] text-[36px] my-3 float'>Participate Now</p>
                 </div>
 
 

@@ -10,6 +10,9 @@ import About from './components/About'
 import LineWhite from './components/LineWhite'
 import './App.css'
 import Participate from './components/Participate'
+import Perks from './components/Perks'
+import Sponsor from './components/Sponsor'
+import Team from './components/Team'
 
 
 function App() {
@@ -36,6 +39,12 @@ function App() {
       <LineWhite/>
       <Participate/>
       <Line/> 
+      <Perks/>
+      <LineWhite/>
+      <Sponsor/>
+      <Line/>
+      <Team/>
+
 
     </div>
   )
