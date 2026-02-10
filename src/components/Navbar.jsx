@@ -7,7 +7,7 @@ const Navbar = () => {
         <p className=' mainfont text-white 
        sm:text-[36px] text-[36px] py-1'>ReVerse <span className='text-yellow-300'>9.0</span></p>
       <ul className='text-white mainfont m-1 flex items-center gap-5  text-[16px] sm:text-[20px]'>
-        <li className='navButtons'>Participate</li>
+        <a href="#participate"><li className='navButtons'>Participate</li></a>
         <li className='navButtons'>Perks</li>
         <li className='navButtons'>Sponsor</li>
         <li className='navButtons'>Team</li>

@@ -35,6 +35,7 @@ function App() {
       <About/>
       <LineWhite/>
       <Participate/>
+      <Line/> 
 
     </div>
   )
