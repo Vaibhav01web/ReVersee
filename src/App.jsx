@@ -13,6 +13,7 @@ import Participate from './components/Participate'
 import Perks from './components/Perks'
 import Sponsor from './components/Sponsor'
 import Team from './components/Team'
+import ScrollToTop from './components/ScrollToTop'
 
 
 function App() {
@@ -44,8 +45,7 @@ function App() {
       <Sponsor/>
       <Line/>
       <Team/>
-
-
+      <ScrollToTop />
     </div>
   )
 }
