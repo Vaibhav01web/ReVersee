@@ -3,7 +3,7 @@ import torn from "/torn-paper.png"
 
 const Line = () => {
   return (
-    <div>
+    <div className='m-[-1px]'>
       <img src={torn} alt=""  />
     </div>
   )

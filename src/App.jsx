@@ -20,7 +20,7 @@ import Goodies from './components/Goodies'
 function App() {
 
   return (
-    <div className='bg-black p-0 w-full min-h-screen overflow-y-auto relative flex flex-col items-center justify-start'>
+    <div className='bg-black p-0 w-full min-h-screen overflow-y-hidden relative flex flex-col items-center justify-start'>
       <NavBar/>
 
       <div className='flex justify-end'>
@@ -47,6 +47,7 @@ function App() {
       <Sponsor/>
       <Line/>
       <Team/>
+      <LineWhite/>
       <ScrollToTop />
     </div>
   )
